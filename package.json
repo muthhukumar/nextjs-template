@@ -14,13 +14,6 @@
     "test-all": "yarn lint && yarn type-check && yarn test",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.@(ts|tsx)": [
-      "yarn lint",
-      "yarn format",
-      "git add --patch"
-    ]
-  },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.5",
     "@chakra-ui/react": "^1.4.2",
