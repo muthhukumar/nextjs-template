@@ -6,7 +6,7 @@
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "eslint-config-next"
+    "next"
   ],
   "env": {
     "es6": true,

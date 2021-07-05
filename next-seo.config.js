@@ -1,4 +1,4 @@
-export default {
+const seoConfig = {
   openGraph: {
     type: 'website',
     locale: 'en_IE',
@@ -22,3 +22,5 @@ export default {
     },
   ],
 }
+
+export default seoConfig
